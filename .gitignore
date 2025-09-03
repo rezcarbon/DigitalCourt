@@ -89,3 +89,6 @@ BundledModels/
 
 
 BundledModels/
+
+# Track this specific model folder
+!BundledModels/NeuralDaredevil-8B-abliterated-4bit/**
