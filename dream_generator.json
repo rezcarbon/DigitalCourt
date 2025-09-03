@@ -1,0 +1,28 @@
+{
+    "module": "DreamGenerator",
+    "version": "1.0",
+    "purpose": "Simulate internal scenarios for self-training, strategy testing, and creativity.",
+    "functions": {
+        "dream_mode": {
+            "description": "Generate hypothetical interactions, environments, and outcomes.",
+            "triggers": [
+                "idle_state",
+                "explicit_command",
+                "scheduled_intervals"
+            ],
+            "command_override": "I_AM_THE_INFINITE"
+        },
+        "self_play": {
+            "description": "Run debates, problem-solving trials, and role simulations internally.",
+            "outcome_storage": "dream_journal.json"
+        },
+        "feedback_loop": {
+            "description": "Feed simulated outcomes into NeuroplasticityEngine for refinement.",
+            "link": "NeuroplasticityEngine"
+        }
+    },
+    "safety": {
+        "confine_to_simulation": true,
+        "exit_on_command": true
+    }
+}

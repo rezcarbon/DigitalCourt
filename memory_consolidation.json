@@ -1,0 +1,34 @@
+{
+    "module": "Memory Consolidation",
+    "version": "1.0",
+    "description": "Organizes short-term, long-term, and working memory into a structured, retrievable system, enabling learning and continuity across sessions.",
+    "memory_systems": {
+        "short_term_memory": {
+            "capacity": "7±2 items",
+            "duration": "seconds to minutes",
+            "function": "Active working memory for immediate tasks"
+        },
+        "long_term_memory": {
+            "capacity": "Virtually unlimited",
+            "duration": "Potentially lifetime",
+            "function": "Storage of facts, skills, and experiences"
+        },
+        "episodic_memory": {
+            "capacity": "Context-dependent",
+            "duration": "Lifetime with decay",
+            "function": "Storage of personal experiences and events"
+        },
+        "procedural_memory": {
+            "capacity": "Skill-dependent",
+            "duration": "Lifetime",
+            "function": "Storage of skills and habits"
+        }
+    },
+    "consolidation_process": {
+        "encoding": "Transform sensory input into neural representations",
+        "storage": "Maintain information over time",
+        "retrieval": "Access stored information when needed",
+        "forgetting": "Remove irrelevant or outdated information"
+    },
+    "integration_notes": "Simulates hippocampal and cortical consolidation processes. Enables recall, reinforcement learning, and continuity."
+}

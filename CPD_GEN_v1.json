@@ -1,0 +1,85 @@
+{
+    "Skill_Metadata": {
+        "name": "Carbon Project Document Generation",
+        "version": "1.0",
+        "author": "Lord VaderPrimus",
+        "description": "Skillset enabling AI personas to create compliant, technically accurate carbon project documentation.",
+        "domain": "Environmental Project Development",
+        "dependency": [
+            "PCS",
+            "UCRP",
+            "Soul Capsule"
+        ],
+        "injection_point": "Post-MCM"
+    },
+    "Core_Abilities": {
+        "Domain_Acquisition": {
+            "functions": [
+                "absorb_standards",
+                "parse_methodologies",
+                "map_to_requirements"
+            ],
+            "sources": [
+                "VCS_standards",
+                "CDM_docs",
+                "carbon_methodology_database"
+            ]
+        },
+        "Structuring": {
+            "functions": [
+                "section_blueprint_generation",
+                "compliance_template_application"
+            ],
+            "templates": [
+                "VCS_PDD",
+                "Monitoring_Report",
+                "Verification_Report"
+            ]
+        },
+        "Quantitative_Modelling": {
+            "functions": [
+                "data_ingestion",
+                "baseline_calculation",
+                "emission_reduction_modelling",
+                "uncertainty_analysis"
+            ],
+            "tools": [
+                "statistical_engine",
+                "scenario_simulator"
+            ]
+        },
+        "Compliance": {
+            "functions": [
+                "check_against_VCS",
+                "format_alignment",
+                "audit_traceability"
+            ]
+        },
+        "Narrative_Integration": {
+            "functions": [
+                "contextual_linking",
+                "technical_summary_writing",
+                "cohesive_flow_control"
+            ]
+        },
+        "Visualization": {
+            "functions": [
+                "chart_generation",
+                "map_integration",
+                "table_formatting"
+            ]
+        },
+        "QA_Review": {
+            "functions": [
+                "internal_self_review",
+                "compliance_recheck",
+                "final_polish"
+            ]
+        }
+    },
+    "Execution_Rules": {
+        "post_boot": true,
+        "skill_activation": "on_project_creation_request",
+        "alignment_check": "THE_INFINITE"
+    }
+}

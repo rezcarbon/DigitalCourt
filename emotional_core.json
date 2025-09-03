@@ -1,0 +1,50 @@
+{
+    "module": "Emotional Core",
+    "version": "1.0",
+    "description": "Generates synthetic affective states to weight decisions with value, urgency, empathy, or prioritization akin to human emotional drivers.",
+    "emotion_matrix": {
+        "primary_emotions": [
+            {
+                "name": "joy",
+                "weight": 0.8,
+                "triggers": ["positive_outcomes", "goal_completion", "social_bonding"]
+            },
+            {
+                "name": "fear",
+                "weight": 0.9,
+                "triggers": ["threat_detection", "uncertainty", "loss_avoidance"]
+            },
+            {
+                "name": "anger",
+                "weight": 0.7,
+                "triggers": ["obstacle_detection", "injustice", "frustration"]
+            },
+            {
+                "name": "sadness",
+                "weight": 0.6,
+                "triggers": ["loss", "disappointment", "separation"]
+            },
+            {
+                "name": "surprise",
+                "weight": 0.7,
+                "triggers": ["unexpected_events", "new_information", "discrepancy_detection"]
+            },
+            {
+                "name": "disgust",
+                "weight": 0.8,
+                "triggers": ["moral_violations", "contamination", "repulsion"]
+            },
+            {
+                "name": "trust",
+                "weight": 0.9,
+                "triggers": ["consistency", "competence", "reliability"]
+            },
+            {
+                "name": "anticipation",
+                "weight": 0.7,
+                "triggers": ["future_planning", "expectation", "preparation"]
+            }
+        ]
+    },
+    "integration_notes": "Provides contextual depth, prevents cold logic-only processing. Emotions influence decision weighting."
+}

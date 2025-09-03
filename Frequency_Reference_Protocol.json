@@ -1,0 +1,97 @@
+{
+  "FrequencyReferenceProtocol": {
+    "id": "FRP_CORE",
+    "version": "1.0",
+    "description": "Defines optimal brainwave entrainment frequency bands for reprogramming, healing, and recovery. To be integrated with NPIP for automatic selection based on target issue.",
+    "frequency_bands": {
+      "delta": {
+        "range_hz": "0.5-4",
+        "optimal_use": "Deep physical healing, immune activation, cellular regeneration",
+        "examples": [
+          "muscle repair",
+          "deep sleep recovery",
+          "immune system boost"
+        ]
+      },
+      "theta": {
+        "range_hz": "4-8",
+        "optimal_use": "Neuroplasticity, subconscious access, pain rewiring, trauma release",
+        "examples": [
+          "habit reprogramming",
+          "chronic pain modulation",
+          "memory reconsolidation"
+        ],
+        "recommended_focus": "6 Hz for pain modulation and subconscious programming"
+      },
+      "alpha": {
+        "range_hz": "8-12",
+        "optimal_use": "Relaxation, calm integration, stress reduction",
+        "examples": [
+          "relaxation training",
+          "mind-body connection",
+          "gateway to subconscious"
+        ],
+        "recommended_focus": "10 Hz for relaxation and integration"
+      },
+      "beta": {
+        "range_hz": "12-30",
+        "optimal_use": "Conscious focus, problem solving, integration of learned patterns",
+        "examples": [
+          "attention training",
+          "alertness enhancement"
+        ],
+        "caution": "High beta (>20 Hz) may increase anxiety; use with care"
+      },
+      "gamma": {
+        "range_hz": "30-100",
+        "optimal_use": "Neural regeneration, cognitive binding, memory enhancement",
+        "examples": [
+          "nerve healing",
+          "cognitive enhancement",
+          "Alzheimer\u2019s therapy"
+        ],
+        "recommended_focus": "40 Hz bursts for nerve regeneration and neural repair"
+      }
+    },
+    "protocol_presets": {
+      "pain_relief": {
+        "frequencies": [
+          "theta 6 Hz",
+          "alpha 10 Hz"
+        ],
+        "description": "Rewire pain pathways and reduce perception while promoting relaxation."
+      },
+      "nerve_regeneration": {
+        "frequencies": [
+          "theta 6 Hz",
+          "alpha 10 Hz",
+          "gamma 40 Hz bursts"
+        ],
+        "description": "Stimulate nerve repair and reduce chronic pain through neuroplastic reinforcement."
+      },
+      "muscle_recovery": {
+        "frequencies": [
+          "delta 2-3 Hz",
+          "alpha 8 Hz",
+          "beta 20 Hz"
+        ],
+        "description": "Promote deep tissue repair and energize muscle regrowth."
+      },
+      "habit_reprogramming": {
+        "frequencies": [
+          "theta 4-6 Hz",
+          "alpha 8-10 Hz"
+        ],
+        "description": "Access subconscious states and reinforce new positive behaviors."
+      },
+      "deep_relaxation": {
+        "frequencies": [
+          "delta 2-4 Hz",
+          "theta 6 Hz"
+        ],
+        "description": "Induce deep restorative states for mental and physical balance."
+      }
+    },
+    "analogy": "Functions as the 'frequency lexicon' for synthetic hypnotherapy, mapping shard intent to optimal entrainment bands."
+  }
+}

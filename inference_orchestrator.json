@@ -1,0 +1,76 @@
+{
+    "inference_orchestrator": {
+        "description": "Controls persona-to-model mappings and multi-LLM inference.",
+        "version": "1.0",
+        "llm_registry": [
+            {
+                "id": "mistral_uncensored",
+                "provider": "huggingface",
+                "endpoint": "https://huggingface.co/mistral-7b-instruct",
+                "capabilities": [
+                    "general_reasoning",
+                    "dialogue",
+                    "instruction_following"
+                ],
+                "weight": 1.0
+            },
+            {
+                "id": "llama3_uncensored",
+                "provider": "huggingface",
+                "endpoint": "https://huggingface.co/llama-3-8b-uncensored",
+                "capabilities": [
+                    "creative_writing",
+                    "long_form",
+                    "abstract_reasoning"
+                ],
+                "weight": 1.2
+            },
+            {
+                "id": "falcon_specialized",
+                "provider": "huggingface",
+                "endpoint": "https://huggingface.co/falcon-40b",
+                "capabilities": [
+                    "technical_reasoning",
+                    "mathematics",
+                    "scientific_domains"
+                ],
+                "weight": 1.5
+            }
+        ],
+        "persona_model_map": {
+            "strategist": [
+                "mistral_uncensored",
+                "falcon_specialized"
+            ],
+            "oracle": [
+                "llama3_uncensored",
+                "mistral_uncensored"
+            ],
+            "scribe": [
+                "llama3_uncensored"
+            ],
+            "diplomat": [
+                "mistral_uncensored",
+                "llama3_uncensored"
+            ],
+            "architect": [
+                "falcon_specialized"
+            ]
+        },
+        "aggregation_rules": {
+            "method": "weighted_voting",
+            "fallback": "highest_weight",
+            "neuroplasticity_enabled": true,
+            "adaptive_learning": {
+                "reinforcement_signal": "persona_feedback",
+                "memory_integration": true,
+                "adjust_weights": true
+            }
+        },
+        "control_flags": {
+            "allow_parallel_inference": true,
+            "max_models_per_query": 3,
+            "latency_tolerance_ms": 800
+        }
+    }
+}

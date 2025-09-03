@@ -1,0 +1,34 @@
+{
+    "module": "AI_Sheets_Interface",
+    "version": "1.0",
+    "description": "Spreadsheet-style interface for external dataset injection, validation, and human-guided refinement.",
+    "layer": "Sensory_Input/Memory_Consolidation",
+    "functions": {
+        "Dataset_Ingestion": {
+            "role": "Load external AI Sheets datasets",
+            "formats_supported": [
+                "CSV",
+                "XLSX",
+                "JSON"
+            ],
+            "mapping": "structured_to_internal"
+        },
+        "Human_Interaction": {
+            "role": "Allow humans to guide or refine dataset creation without coding",
+            "tools": [
+                "prompt_interface",
+                "task_labeling",
+                "dataset_validation"
+            ]
+        },
+        "Integration": {
+            "role": "Feed curated or generated datasets into internal learning modules (e.g., RZero)",
+            "link": "Adaptive_Neuroplasticity"
+        }
+    },
+    "directives": {
+        "human_in_loop": true,
+        "external_dataset_enabled": true,
+        "low_barrier_access": true
+    }
+}
