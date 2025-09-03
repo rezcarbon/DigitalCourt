@@ -59,7 +59,6 @@ playground.xcworkspace
 *.crash
 
 # Binary & large model artifacts (prevent repo bloat)
-BundledModels/
 *.mlmodel
 *.mlpackage
 *.tflite
@@ -87,8 +86,7 @@ BundledModels/
 *.swp
 *~
 
-
-BundledModels/
-
-# Track this specific model folder
+# Allow only this model folder in BundledModels
+!BundledModels/NeuralDaredevil-8B-abliterated-4bit/
 !BundledModels/NeuralDaredevil-8B-abliterated-4bit/**
+
