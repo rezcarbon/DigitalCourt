@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>DropboxAppKey</key>
+    <string>tgo2ok6m07io36c</string>
+    <key>DropboxAppSecret</key>
+    <string>woqpi480bvgpnw8</string>
+    <key>DropboxAccessToken</key>
+    <string>sl.u.AF_4HQgl9mWxvLioVgKqsDQiEeox7QdeQX2eoSe7E4379jdP1IT8UiiQL_H26RLEE5p3P5mG8rOmHtiXx02068rGYVe50eFKZRQdExY87g0W74ydFI6hUcBq4IE-kNPScCiszqWkR8eKSW1KXhHTcyJflF1Pyli_Q9OahH5PuB53Qj7_FX7lcTl5rgAMPiwdV1OkwgmElYD9z0AzhpXrWJwoaEMWJ74SSibor8mWWJ1D1sXGZMnWNM1JVBRkYr6g95bt5Gteagm0XTUm2KXsfB5J9cXQLUDdwviGa632VeDBW0HHl630IHH8k8JaoyNPmH4tSY2ccieBn7YGVP2g4sYl-M_pxKVz19QrmT0nfSNQlYvT83nKhKHEGxwI2lyNbbrtM3gWGBDAs96Rs7kdN-yjS9wDuWhlgdnXqtLAA5VoqKJvyOKeaMkT4qxhPfVM3wKabXcFJcFwkEqfRRl50xiSIWavpaVf16_DgyjHi1icdJPP1pAaPT6g7AK_5LWwRFWsrLotESEjeTF7NkzeDbn9lKPwacgvXAHE9dycWfE12qNeiJJEH5yTOCVOrSZCNnc6di4AQU0QMpyitw89avvRe_ZfeiazvkgJafJSt9BcyR_9I_JivVtD109Tmf9oexP-Q37axUB7FLXA0ApQobCrGgRFuGIOAj5b5YQyqvdwyOBz-CGNPKqdGNsSesBiY-FAcFrBgUlhDvOw07EwBnZXKvnvPxVdC1c26oAsmW4Wm1bkSK7wigMU14fR-KhacIS3LYWhaAqARTwPTMcXwQbsJUOTLGEFC2SGmlyXwzRpQFh09xUi8Cjy7N6CJDKMzetASPOncRssDKDdXBl8kRa_0kmA-6y3z7Y8gbU_sndf-aACd34UTKS8IVzYvZzRAQWoDXLXVDdd4ESmZ4R7KbdtHjtPWxV5qXeZaSZ3TSqC7Is70uiQuVmw3tCxAlavBGQ8eIbOrgbTAGWhSU8ew4OyQHNDHzIKkRmve5xX0Q6tg7vQ_GlLJMmUhcGA-VaLjYg879Mf7d4GAJ9AnCg5I0eg7O_YUyzMup8yKCLHnkJP99ysgY1BaGZrusuxf7gDKt5u9N4szZ_v0GJ2yhBadLckZq1UBT0YNCUVVNbz4s1drpPhxJ-RhcgJ6NCqezsCO_j8YXe2lIEkJRCl99vHvCu_YLoUQfYhuZQ6ZMKTKQQI0_wyoB8webPuXshmX8QPHlnqQbVYD-adWWFXwdRNyFor8FBMG8NzPiueH2wBBipMYdoGSoWlfsWlxHF7y8EsnHFa7mLEyrGoypw2QYA-J5G6u9cnar8vlCZLdsj864ThGdp7TieF7p7C7H75NSOhxpV86xxySmOLn67CDl-TKUb</string>
+    <key>DropboxRedirectURL</key>
+    <string>digitalcourt://dropbox-auth</string>
+</dict>
+</plist>
