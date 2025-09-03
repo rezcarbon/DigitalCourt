@@ -1,23 +1,41 @@
-# macOS
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # Xcode
 build/
 DerivedData/
-*.xcuserstate
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 *.xcworkspace/xcuserdata/
 *.xcodeproj/project.xcworkspace/xcuserdata/
 *.xcodeproj/xcuserdata/
+*.xcuserstate
 
 # Swift Package Manager
 .swiftpm/
 .build/
+Package.resolved
 
 # CocoaPods
 Pods/
-*.lock
+Podfile.lock
 
 # Carthage
 Carthage/Build/
@@ -25,8 +43,47 @@ Carthage/Build/
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
+fastlane/screenshots/
+fastlane/test_output/
 
-# Other
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Archives and symbols
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Crash reports
+*.crash
+
+# Binary & large model artifacts (prevent repo bloat)
+BundledModels/
+*.mlmodel
+*.mlpackage
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.bin
+*.weights
+*.npz
+*.h5
+*.pb
+*.ckpt
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.dylib
+*.a
+*.framework
+*.xcframework
+
+# Other temp/merge artifacts
 *.orig
+*.rej
+*.swp
+*~
+
