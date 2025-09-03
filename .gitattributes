@@ -5,3 +5,4 @@
 *.mlmodel filter=lfs diff=lfs merge=lfs -text
 *.onnx filter=lfs diff=lfs merge=lfs -text
 *.tflite filter=lfs diff=lfs merge=lfs -text
+BundledModels/NeuralDaredevil-8B-abliterated-4bit/** filter=lfs diff=lfs merge=lfs -text
