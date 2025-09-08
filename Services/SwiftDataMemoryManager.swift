@@ -163,13 +163,19 @@ class SwiftDataMemoryManager: ObservableObject {
         guard let context = modelContext else { throw MemoryError.swiftDataNotInitialized }
 
         // Create a predicate that checks if synapticNodeId exists and is in the nodeIds array
+        // Note: SwiftData predicates have limitations, so we'll filter after fetching
         let predicate = #Predicate<DMessage> { message in
-            guard let synapticNodeId = message.synapticNodeId else { return false }
-            return nodeIds.contains(synapticNodeId)
+            message.synapticNodeId != nil
         }
 
         let descriptor = FetchDescriptor<DMessage>(predicate: predicate)
-        return try context.fetch(descriptor)
+        let allMessages = try context.fetch(descriptor)
+        
+        // Filter messages to only include those with synapticNodeId in the provided array
+        return allMessages.filter { message in
+            guard let synapticNodeId = message.synapticNodeId else { return false }
+            return nodeIds.contains(synapticNodeId)
+        }
     }
 
     func saveMessageWithPersona(_ content: String, isUser: Bool, personaName: String?, chamberId: UUID, synapticNodeId: UUID?) async throws {
@@ -294,7 +300,7 @@ class SwiftDataMemoryManager: ObservableObject {
 
     private func clearEntityType<T: PersistentModel>(_ type: T.Type, context: ModelContext) async throws {
         let fetchDescriptor = FetchDescriptor<T>(predicate: nil)
-        let batchSize = 100
+        _ = 100
 
         while true {
             let batch = try context.fetch(fetchDescriptor)
